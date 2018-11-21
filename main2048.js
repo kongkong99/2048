@@ -154,28 +154,28 @@ $(document).keydown(function (event) {
         case 37: //left
             event.preventDefault();
             if (moveLeft()) {
-                setTimeout("generateOneNumber()", 210);
+                setTimeout("generateOneNumber()", 110);
                 setTimeout("isgameover()", 300);
             }
             break;
         case 38: //up
             event.preventDefault();
             if (moveUp()) {
-                setTimeout("generateOneNumber()", 210);
+                setTimeout("generateOneNumber()", 110);
                 setTimeout("isgameover()", 300);
             }
             break;
         case 39: //right
             event.preventDefault();
             if (moveRight()) {
-                setTimeout("generateOneNumber()", 210);
+                setTimeout("generateOneNumber()", 110);
                 setTimeout("isgameover()", 300);
             }
             break;
         case 40: //down
             event.preventDefault();
             if (moveDown()) {
-                setTimeout("generateOneNumber()", 210);
+                setTimeout("generateOneNumber()", 110);
                 setTimeout("isgameover()", 300);
             }
             break;
@@ -209,14 +209,14 @@ document.addEventListener('touchend', function (event) {
         if (delx > 0) {
             //right
             if (moveRight()) {
-                setTimeout("generateOneNumber()", 210);
-                setTimeout("isgameover()", 300);
+                setTimeout("generateOneNumber()", 110);
+                setTimeout("isgameover()", 150);
             }
         } else {
             //left
             if (moveLeft()) {
-                setTimeout("generateOneNumber()", 210);
-                setTimeout("isgameover()", 300);
+                setTimeout("generateOneNumber()", 110);
+                setTimeout("isgameover()", 150);
             }
         }
     }//y
@@ -224,15 +224,15 @@ document.addEventListener('touchend', function (event) {
         if (dely > 0) {
             //down
             if (moveDown()) {
-                setTimeout("generateOneNumber()", 210);
-                setTimeout("isgameover()", 300);
+                setTimeout("generateOneNumber()", 110);
+                setTimeout("isgameover()", 150);
             }
         }
         else {
             //up
             if (moveUp()) {
-                setTimeout("generateOneNumber()", 210);
-                setTimeout("isgameover()", 300);
+                setTimeout("generateOneNumber()", 110);
+                setTimeout("isgameover()", 150);
             }
         }
     }
@@ -289,7 +289,7 @@ function moveLeft() {
             }
         }
 
-    setTimeout("updateBoardView()", 200);
+    setTimeout("updateBoardView()", 90);
     return true;
 }
 
@@ -327,7 +327,7 @@ function moveRight() {
             }
         }
 
-    setTimeout("updateBoardView()", 200);
+    setTimeout("updateBoardView()", 90);
     return true;
 }
 
@@ -366,7 +366,7 @@ function moveUp() {
             }
         }
 
-    setTimeout("updateBoardView()", 200);
+    setTimeout("updateBoardView()", 90);
     return true;
 }
 
@@ -404,6 +404,6 @@ function moveDown() {
             }
         }
 
-    setTimeout("updateBoardView()", 200);
+    setTimeout("updateBoardView()", 90);
     return true;
 }
