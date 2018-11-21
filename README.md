@@ -4,4 +4,4 @@
 
 **使用键盘上下左右键进行操作**
 
-[**可以点击体验此游戏**](https://kongkong99.github.io/2048/)
+[**可以点击体验此游戏**](https://kongkong99.github.io/Work-chapter-2048/)
