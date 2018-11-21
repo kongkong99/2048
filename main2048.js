@@ -7,6 +7,7 @@ var board = new Array();
 var score = 0;
 var hasConflicted = new Array();
 
+
 $(document).ready(function(){
     newgame();
 });
@@ -47,10 +48,14 @@ function init(){
 }
 
 function updateBoardView(){
-
+  var $job=$('#job');
+  var max=0;
     $(".number-cell").remove();
     for( var i = 0 ; i < 4 ; i ++ )
         for( var j = 0 ; j < 4 ; j ++ ){
+            if(max<board[i][j]){
+                max=board[i][j];
+            }
             $("#grid-container").append( '<div class="number-cell" id="number-cell-'+i+'-'+j+'"></div>' );
             var theNumberCell = $('#number-cell-'+i+'-'+j);
 
@@ -67,11 +72,13 @@ function updateBoardView(){
                 theNumberCell.css('left',getPosLeft(i,j));
                 theNumberCell.css('background-color',getNumberBackgroundColor( board[i][j] ) );
                 theNumberCell.css('color',getNumberColor( board[i][j] ) );
-                theNumberCell.text( board[i][j] );
+                theNumberCell.text(getTextValue(board[i][j]));
             }
 
             hasConflicted[i][j] = false;
         }
+  console.log(max);
+  $job.text(getTextValue(parseInt(max)));
 }
 
 function generateOneNumber(){
@@ -107,6 +114,7 @@ function generateOneNumber(){
     var randNumber = Math.random() < 0.5 ? 2 : 4;
 
     //在随机位置显示随机数字
+
     board[randx][randy] = randNumber;
     showNumberWithAnimation( randx , randy , randNumber );
 

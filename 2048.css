@@ -12,15 +12,16 @@ header{
 
 header h1{
     font-family:Arial;
-    font-size:60px;
+    font-size:50px;
     font-weight:bold;
+    color: #736252;
 }
 
 header #newgamebutton{
     display:block;
-    margin:20px auto;
-
-    width:100px;
+    margin:10px auto;
+    font-size: 18px;
+    width:120px;
     padding:10px 10px;
     background-color:#8f7a66;
 
@@ -36,8 +37,9 @@ header #newgamebutton:hover{
 
 header p{
     font-family:Arial;
-    font-size:25px;
-    margin:20px auto;
+    font-size:27px;
+    margin:20px auto 10px;
+    color: #9f8b77;
 }
 
 #grid-container{
@@ -66,7 +68,7 @@ header p{
 
     font-family: Arial;
     font-weight:bold;
-    font-size:60px;
+    font-size:20px;
     line-height:100px;
     text-align:center;
 
