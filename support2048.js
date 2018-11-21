@@ -1,13 +1,13 @@
-var documentWidth = window.screen.availWidth;
-var gridContentWidth = 0.92 * documentWidth;
-var cellSideLength = 0.18 * documentWidth;
-var cellSpace = 0.04 * documentWidth;
+/**
+ * Created by liuyubobobo on 14-4-11.
+ * my site: http://www.liuyubobobo.com
+ */
 function getPosTop( i , j ){
-    return cellSpace + i*(cellSideLength+cellSpace);
+    return 20 + i*120;
 }
 
 function getPosLeft( i , j ){
-    return cellSpace + j*(cellSideLength+cellSpace);
+    return 20 + j*120;
 }
 
 function getNumberBackgroundColor( number ){
