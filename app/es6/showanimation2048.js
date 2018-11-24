@@ -1,7 +1,8 @@
 
-function showNumberWithAnimation( i , j , randNumber ){
+//数字格显示动画
+let showNumberWithAnimation= ( i , j , randNumber )=>{
 
-    var numberCell = $('#number-cell-' + i + "-" + j );
+    let numberCell = $('#number-cell-' + i + "-" + j );
 
     numberCell.css('background-color',getNumberBackgroundColor( randNumber ) );
     numberCell.css('color',getNumberColor( randNumber ) );
@@ -13,17 +14,21 @@ function showNumberWithAnimation( i , j , randNumber ){
         top:getPosTop( i , j ),
         left:getPosLeft( i , j )
     },40);
-}
+};
 
-function showMoveAnimation( fromx , fromy , tox, toy ){
 
-    var numberCell = $('#number-cell-' + fromx + '-' + fromy );
+//数字格移动动画
+let showMoveAnimation= ( fromx , fromy , tox, toy ) => {
+
+    let numberCell = $('#number-cell-' + fromx + '-' + fromy );
     numberCell.animate({
         top:getPosTop( tox , toy ),
         left:getPosLeft( tox , toy )
     },130);
-}
+};
 
-function updateScore( score ){
+
+//得分更新
+let  updateScore= ( score ) =>{
     $('#score').text( score );
-}
+};
