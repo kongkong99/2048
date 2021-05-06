@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-06T11:51:16.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="Y5yJ1kbnKZJHOlVuhW9w" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-06T12:12:31.266Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="0w99TmrPXax9Li5MGns2" version="14.6.10" type="github">
   <diagram id="krJ8hBpQiW85uxP0k1V1" name="Page-1">
     <mxGraphModel dx="946" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,16 +28,13 @@
         <mxCell id="a1dXtjCDa0dh4BJsuNUn-4" value="URL有id" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="130" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a1dXtjCDa0dh4BJsuNUn-7" value="进入表格编辑" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="330" y="340" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="a1dXtjCDa0dh4BJsuNUn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a1dXtjCDa0dh4BJsuNUn-8" target="a1dXtjCDa0dh4BJsuNUn-7">
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a1dXtjCDa0dh4BJsuNUn-8" target="a1dXtjCDa0dh4BJsuNUn-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a1dXtjCDa0dh4BJsuNUn-8" value="渲染空白表格" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="450" y="200" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="a1dXtjCDa0dh4BJsuNUn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a1dXtjCDa0dh4BJsuNUn-13" target="a1dXtjCDa0dh4BJsuNUn-7">
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a1dXtjCDa0dh4BJsuNUn-13" target="a1dXtjCDa0dh4BJsuNUn-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a1dXtjCDa0dh4BJsuNUn-13" value="渲染已有表格" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
@@ -48,6 +45,62 @@
         </mxCell>
         <mxCell id="a1dXtjCDa0dh4BJsuNUn-17" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="140" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="a1dXtjCDa0dh4BJsuNUn-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-18" value="编辑表格" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="325" y="340" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a1dXtjCDa0dh4BJsuNUn-25" target="a1dXtjCDa0dh4BJsuNUn-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-25" value="保存表格" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="325" y="420" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="a1dXtjCDa0dh4BJsuNUn-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="a1dXtjCDa0dh4BJsuNUn-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-26" value="是否为新建" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a1dXtjCDa0dh4BJsuNUn-30" target="a1dXtjCDa0dh4BJsuNUn-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-30" value="更新表格" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="570" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="a1dXtjCDa0dh4BJsuNUn-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-31" value="新建表格" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="570" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a1dXtjCDa0dh4BJsuNUn-33" target="a1dXtjCDa0dh4BJsuNUn-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-33" value="留存新建id等待下次保存" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="650" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-35" value="退出编辑表格" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="325" y="710" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-38" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="490" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a1dXtjCDa0dh4BJsuNUn-39" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="490" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
